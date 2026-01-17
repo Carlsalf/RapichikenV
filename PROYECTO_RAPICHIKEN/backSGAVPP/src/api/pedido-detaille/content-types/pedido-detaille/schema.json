@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pedido_detailles",
+  "info": {
+    "singularName": "pedido-detaille",
+    "pluralName": "pedido-detailles",
+    "displayName": "PedidoDetaille"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pedidoId": {
+      "type": "string"
+    },
+    "catalogoId": {
+      "type": "string"
+    },
+    "monto": {
+      "type": "float"
+    },
+    "cantidad": {
+      "type": "integer"
+    },
+    "descuento": {
+      "type": "float"
+    }
+  }
+}

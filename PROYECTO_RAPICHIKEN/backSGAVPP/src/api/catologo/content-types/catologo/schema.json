@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "catologos",
+  "info": {
+    "singularName": "catologo",
+    "pluralName": "catologos",
+    "displayName": "Catalogo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "disponible": {
+      "type": "boolean"
+    },
+    "piezas": {
+      "type": "biginteger"
+    },
+    "descuento": {
+      "type": "biginteger"
+    },
+    "precio": {
+      "type": "biginteger"
+    },
+    "productos": {
+      "type": "json"
+    },
+    "foto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

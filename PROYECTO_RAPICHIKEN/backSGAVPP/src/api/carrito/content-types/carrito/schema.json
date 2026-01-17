@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carritos",
+  "info": {
+    "singularName": "carrito",
+    "pluralName": "carritos",
+    "displayName": "Carrito",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userId": {
+      "type": "biginteger"
+    },
+    "catalogoIds": {
+      "type": "json"
+    },
+    "total": {
+      "type": "biginteger"
+    }
+  }
+}

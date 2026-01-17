@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "productos",
+  "info": {
+    "singularName": "producto",
+    "pluralName": "productos",
+    "displayName": "Producto",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "tipo_producto": {
+      "type": "string"
+    },
+    "unidad": {
+      "type": "string"
+    },
+    "piezas": {
+      "type": "integer"
+    },
+    "disponible": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

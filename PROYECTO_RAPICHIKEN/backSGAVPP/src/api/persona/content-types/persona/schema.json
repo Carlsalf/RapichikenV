@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personas",
+  "info": {
+    "singularName": "persona",
+    "pluralName": "personas",
+    "displayName": "Persona"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombres": {
+      "type": "string"
+    },
+    "apellidos": {
+      "type": "string"
+    },
+    "telefono": {
+      "type": "biginteger"
+    },
+    "f_nacimiento": {
+      "type": "date"
+    },
+    "dni": {
+      "type": "biginteger",
+      "max": "8"
+    },
+    "direccion": {
+      "type": "text"
+    },
+    "sexo": {
+      "type": "string",
+      "maxLength": 1
+    },
+    "usuarios_id": {
+      "type": "biginteger"
+    }
+  }
+}

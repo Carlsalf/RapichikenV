@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inventarios",
+  "info": {
+    "singularName": "inventario",
+    "pluralName": "inventarios",
+    "displayName": "Inventario",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "stock": {
+      "type": "biginteger"
+    },
+    "disponible": {
+      "type": "boolean"
+    },
+    "productoId": {
+      "type": "biginteger"
+    }
+  }
+}
